@@ -9,6 +9,9 @@ dependencies = [
     "sqlmodel>=0.0.38",
 ]
 
+[tool.fastapi]
+entry-point = "src.main:app"
+
 [tool.ruff.lint]
 select = [
     "I",  
