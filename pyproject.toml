@@ -16,3 +16,6 @@ select = [
     "N",
     "W"
 ]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
